@@ -1,0 +1,100 @@
+2024-11-24T09:49:31.450499+00:00 Ubuntu-Desktop kernel: audit: type=1400 audit(1732441771.448:202): apparmor="STATUS" operation="profile_replace" profile="unconfined" name="snap.firefox.hook.post-refresh" pid=5089 comm="apparmor_parser"
+2024-11-24T09:49:31.512474+00:00 Ubuntu-Desktop kernel: audit: type=1400 audit(1732441771.510:203): apparmor="STATUS" operation="profile_replace" profile="unconfined" name="snap.firefox.geckodriver" pid=5086 comm="apparmor_parser"
+2024-11-24T09:49:31.678387+00:00 Ubuntu-Desktop kernel: audit: type=1400 audit(1732441771.676:204): apparmor="STATUS" operation="profile_replace" profile="unconfined" name="snap.prompting-client.daemon" pid=5091 comm="apparmor_parser"
+2024-11-24T09:49:50.997920+00:00 Ubuntu-Desktop systemd[1896]: Starting snapd.session-agent.service - snapd user session agent...
+2024-11-24T09:49:51.015057+00:00 Ubuntu-Desktop systemd[1896]: Started snapd.session-agent.service - snapd user session agent.
+2024-11-24T09:49:51.021429+00:00 Ubuntu-Desktop systemd[1896]: Reload requested from client PID 5114 ('systemctl') (unit snapd.session-agent.service)...
+2024-11-24T09:49:51.021522+00:00 Ubuntu-Desktop systemd[1896]: Reloading...
+2024-11-24T09:49:51.119488+00:00 Ubuntu-Desktop systemd[1896]: Reloading finished in 98 ms.
+2024-11-24T09:49:51.143214+00:00 Ubuntu-Desktop systemd[1896]: Started snap.snapd-desktop-integration.snapd-desktop-integration.service - Service for snap application snapd-desktop-integration.snapd-desktop-integration.
+2024-11-24T09:49:51.175151+00:00 Ubuntu-Desktop systemd[1]: run-snapd-ns-snapd\x2ddesktop\x2dintegration.mnt.mount: Deactivated successfully.
+2024-11-24T09:49:51.189489+00:00 Ubuntu-Desktop systemd[1]: tmp-snap.rootfs_ZSrfPT.mount: Deactivated successfully.
+2024-11-24T09:49:51.211650+00:00 Ubuntu-Desktop systemd[1]: Started snap.snapd-desktop-integration.hook.configure-0caec028-5c13-4534-9c6c-6bd844ce9d8d.scope.
+2024-11-24T09:49:51.265416+00:00 Ubuntu-Desktop kernel: kauditd_printk_skb: 12 callbacks suppressed
+2024-11-24T09:49:51.265438+00:00 Ubuntu-Desktop kernel: audit: type=1400 audit(1732441791.264:217): apparmor="DENIED" operation="open" class="file" profile="snap-update-ns.snapd-desktop-integration" name="/proc/5153/maps" pid=5153 comm="5" requested_mask="r" denied_mask="r" fsuid=1000 ouid=0
+2024-11-24T09:49:51.666647+00:00 Ubuntu-Desktop snapd-desktop-i[5266]: New theme: gtk=Yaru icon=Yaru cursor=Yaru, sound=Yaru
+2024-11-24T09:49:51.670734+00:00 Ubuntu-Desktop snapd-desktop-i[5266]: All available theme snaps installed
+2024-11-24T09:49:53.974922+00:00 Ubuntu-Desktop systemd[1]: snap.snapd-desktop-integration.hook.configure-0caec028-5c13-4534-9c6c-6bd844ce9d8d.scope: Deactivated successfully.
+2024-11-24T09:49:55.027955+00:00 Ubuntu-Desktop snapd[992]: storehelpers.go:1019: cannot refresh: snap has no updates available: "core22", "gtk-common-themes", "snapd-desktop-integration"
+2024-11-24T09:50:06.747827+00:00 Ubuntu-Desktop systemd[1]: Starting sysstat-collect.service - system activity accounting tool...
+2024-11-24T09:50:06.766268+00:00 Ubuntu-Desktop systemd[1]: sysstat-collect.service: Deactivated successfully.
+2024-11-24T09:50:06.766489+00:00 Ubuntu-Desktop systemd[1]: Finished sysstat-collect.service - system activity accounting tool.
+2024-11-24T09:50:21.147997+00:00 Ubuntu-Desktop snap[5104]: session_agent.go:332: read unix @->/run/user/1000/bus: use of closed network connection
+2024-11-24T09:50:40.936030+00:00 Ubuntu-Desktop dbus-daemon[982]: [system] Activating via systemd: service name='org.freedesktop.hostname1' unit='dbus-org.freedesktop.hostname1.service' requested by ':1.134' (uid=1000 pid=3035 comm="/snap/sublime-text/178/opt/sublime_text/sublime_te" label="snap.sublime-text.subl (complain)")
+2024-11-24T09:50:40.938539+00:00 Ubuntu-Desktop systemd[1]: Starting systemd-hostnamed.service - Hostname Service...
+2024-11-24T09:50:40.990183+00:00 Ubuntu-Desktop systemd[1]: Started systemd-hostnamed.service - Hostname Service.
+2024-11-24T09:50:40.991422+00:00 Ubuntu-Desktop dbus-daemon[982]: [system] Successfully activated service 'org.freedesktop.hostname1'
+2024-11-24T09:51:11.023198+00:00 Ubuntu-Desktop systemd[1]: systemd-hostnamed.service: Deactivated successfully.
+2024-11-24T09:55:01.391995+00:00 Ubuntu-Desktop CRON[5417]: (root) CMD (command -v debian-sa1 > /dev/null && debian-sa1 1 1)
+2024-11-24T09:56:44.869435+00:00 Ubuntu-Desktop systemd[1]: Starting systemd-tmpfiles-clean.service - Cleanup of Temporary Directories...
+2024-11-24T09:56:44.882832+00:00 Ubuntu-Desktop systemd-tmpfiles[5460]: /usr/lib/tmpfiles.d/legacy.conf:13: Duplicate line for path "/run/lock", ignoring.
+2024-11-24T09:56:44.889789+00:00 Ubuntu-Desktop systemd[1]: systemd-tmpfiles-clean.service: Deactivated successfully.
+2024-11-24T09:56:44.889861+00:00 Ubuntu-Desktop systemd[1]: Finished systemd-tmpfiles-clean.service - Cleanup of Temporary Directories.
+2024-11-24T09:56:44.891669+00:00 Ubuntu-Desktop systemd[1]: run-credentials-systemd\x2dtmpfiles\x2dclean.service.mount: Deactivated successfully.
+2024-11-24T09:58:18.381040+00:00 Ubuntu-Desktop dbus-daemon[1938]: [session uid=1000 pid=1938] Activating service name='org.gnome.Nautilus' requested by ':1.28' (uid=1000 pid=2145 comm="/usr/bin/gnome-shell" label="unconfined")
+2024-11-24T09:58:18.416821+00:00 Ubuntu-Desktop nautilus[5523]: Connecting to org.freedesktop.Tracker3.Miner.Files
+2024-11-24T09:58:18.418171+00:00 Ubuntu-Desktop dbus-daemon[1938]: [session uid=1000 pid=1938] Successfully activated service 'org.gnome.Nautilus'
+2024-11-24T09:58:18.650810+00:00 Ubuntu-Desktop dbus-daemon[982]: [system] Activating via systemd: service name='org.freedesktop.hostname1' unit='dbus-org.freedesktop.hostname1.service' requested by ':1.136' (uid=1000 pid=5523 comm="/usr/bin/nautilus --gapplication-service" label="nautilus (unconfined)")
+2024-11-24T09:58:18.655506+00:00 Ubuntu-Desktop systemd[1]: Starting systemd-hostnamed.service - Hostname Service...
+2024-11-24T09:58:18.705433+00:00 Ubuntu-Desktop systemd[1]: Started systemd-hostnamed.service - Hostname Service.
+2024-11-24T09:58:18.706946+00:00 Ubuntu-Desktop dbus-daemon[982]: [system] Successfully activated service 'org.freedesktop.hostname1'
+2024-11-24T09:58:18.788016+00:00 Ubuntu-Desktop gnome-shell[2145]: Invalid sequence for VSYNC frame info
+2024-11-24T09:58:48.812269+00:00 Ubuntu-Desktop systemd[1]: systemd-hostnamed.service: Deactivated successfully.
+2024-11-24T10:00:06.695744+00:00 Ubuntu-Desktop systemd[1]: Starting sysstat-collect.service - system activity accounting tool...
+2024-11-24T10:00:06.720430+00:00 Ubuntu-Desktop systemd[1]: sysstat-collect.service: Deactivated successfully.
+2024-11-24T10:00:06.720592+00:00 Ubuntu-Desktop systemd[1]: Finished sysstat-collect.service - system activity accounting tool.
+2024-11-24T10:04:01.340079+00:00 Ubuntu-Desktop rtkit-daemon[1334]: Successfully made thread 2190 of process 2145 owned by '1000' high priority at nice level 0.
+2024-11-24T10:04:01.340688+00:00 Ubuntu-Desktop rtkit-daemon[1334]: Supervising 8 threads of 5 processes of 1 users.
+2024-11-24T10:04:01.343094+00:00 Ubuntu-Desktop rtkit-daemon[1334]: Supervising 7 threads of 4 processes of 1 users.
+2024-11-24T10:04:01.345066+00:00 Ubuntu-Desktop rtkit-daemon[1334]: Supervising 7 threads of 4 processes of 1 users.
+2024-11-24T10:04:01.351496+00:00 Ubuntu-Desktop rtkit-daemon[1334]: Successfully made thread 2190 of process 2145 owned by '1000' RT at priority 20.
+2024-11-24T10:04:01.351569+00:00 Ubuntu-Desktop rtkit-daemon[1334]: Supervising 8 threads of 5 processes of 1 users.
+2024-11-24T10:04:01.429658+00:00 Ubuntu-Desktop update-notifier[2975]: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
+2024-11-24T10:04:01.692086+00:00 Ubuntu-Desktop gnome-shell[2145]: Cursor update failed: drmModeAtomicCommit: Invalid argument
+2024-11-24T10:04:12.931082+00:00 Ubuntu-Desktop rtkit-daemon[1334]: Successfully made thread 2190 of process 2145 owned by '1000' high priority at nice level 0.
+2024-11-24T10:04:12.931202+00:00 Ubuntu-Desktop rtkit-daemon[1334]: Supervising 8 threads of 5 processes of 1 users.
+2024-11-24T10:04:12.934192+00:00 Ubuntu-Desktop rtkit-daemon[1334]: Supervising 7 threads of 4 processes of 1 users.
+2024-11-24T10:04:12.937769+00:00 Ubuntu-Desktop rtkit-daemon[1334]: Supervising 7 threads of 4 processes of 1 users.
+2024-11-24T10:04:12.946605+00:00 Ubuntu-Desktop rtkit-daemon[1334]: Successfully made thread 2190 of process 2145 owned by '1000' RT at priority 20.
+2024-11-24T10:04:12.946807+00:00 Ubuntu-Desktop rtkit-daemon[1334]: Supervising 8 threads of 5 processes of 1 users.
+2024-11-24T10:04:13.879274+00:00 Ubuntu-Desktop dbus-daemon[982]: [system] Activating via systemd: service name='net.reactivated.Fprint' unit='fprintd.service' requested by ':1.84' (uid=1000 pid=2145 comm="/usr/bin/gnome-shell" label="unconfined")
+2024-11-24T10:04:13.887405+00:00 Ubuntu-Desktop systemd[1]: Starting fprintd.service - Fingerprint Authentication Daemon...
+2024-11-24T10:04:13.948442+00:00 Ubuntu-Desktop dbus-daemon[982]: [system] Successfully activated service 'net.reactivated.Fprint'
+2024-11-24T10:04:13.948754+00:00 Ubuntu-Desktop systemd[1]: Started fprintd.service - Fingerprint Authentication Daemon.
+2024-11-24T10:04:15.842916+00:00 Ubuntu-Desktop gnome-shell[2145]: Launching DING process
+2024-11-24T10:04:15.846933+00:00 Ubuntu-Desktop NetworkManager[1020]: <info>  [1732442655.8467] agent-manager: agent[fc460bc861386c81,:1.84/org.gnome.Shell.NetworkAgent/1000]: agent registered
+2024-11-24T10:04:16.023174+00:00 Ubuntu-Desktop gnome-shell[2145]: DING: Detected async api for thumbnails
+2024-11-24T10:04:16.024062+00:00 Ubuntu-Desktop gnome-shell[2145]: DING: (gjs:5740): Gjs-WARNING **: 10:04:16.022: GLib.unix_signal_add has been moved to a separate platform-specific library. Please update your code to use GLibUnix.signal_add instead.
+2024-11-24T10:04:16.024081+00:00 Ubuntu-Desktop gnome-shell[2145]: DING: 0 DesktopManager() ["/usr/share/gnome-shell/extensions/ding@rastersoft.com/app/desktopManager.js":264:13]
+2024-11-24T10:04:16.024092+00:00 Ubuntu-Desktop gnome-shell[2145]: DING: 1 anonymous() ["/usr/share/gnome-shell/extensions/ding@rastersoft.com/app/ding.js":180:26]
+2024-11-24T10:04:16.024099+00:00 Ubuntu-Desktop gnome-shell[2145]: DING: 2 anonymous() ["/usr/share/gnome-shell/extensions/ding@rastersoft.com/app/ding.js":197:21]
+2024-11-24T10:04:16.024109+00:00 Ubuntu-Desktop gnome-shell[2145]: DING: 3 <TOP LEVEL> ["/usr/share/gnome-shell/extensions/ding@rastersoft.com/app/ding.js":206:13]
+2024-11-24T10:04:16.042818+00:00 Ubuntu-Desktop gnome-shell[2145]: DING: DBus interface for Switcheroo control (net.hadess.SwitcherooControl) is now available.
+2024-11-24T10:04:16.043956+00:00 Ubuntu-Desktop gnome-shell[2145]: DING: DBus interface for Nautilus (org.gnome.Nautilus.FileOperations2) is now available.
+2024-11-24T10:04:16.044003+00:00 Ubuntu-Desktop gnome-shell[2145]: DING: DBus interface for Nautilus (org.freedesktop.FileManager1) is now available.
+2024-11-24T10:04:16.044069+00:00 Ubuntu-Desktop gnome-shell[2145]: DING: DBus interface for Gvfs daemon (org.gtk.vfs.Metadata) is now available.
+2024-11-24T10:04:16.048475+00:00 Ubuntu-Desktop gnome-shell[2145]: DING: ** Message: 10:04:16.046: Connecting to org.freedesktop.Tracker3.Miner.Files
+2024-11-24T10:04:16.057711+00:00 Ubuntu-Desktop gnome-shell[2145]: DING: GNOME nautilus 47.0
+2024-11-24T10:04:16.065069+00:00 Ubuntu-Desktop gnome-shell[2145]: Received notification for window. 0 notifications remaining.
+2024-11-24T10:04:16.109575+00:00 Ubuntu-Desktop gnome-shell[2145]: Window manager warning: Overwriting existing binding of keysym 39 with keysym 39 (keycode 12).
+2024-11-24T10:04:16.109667+00:00 Ubuntu-Desktop gnome-shell[2145]: Window manager warning: Overwriting existing binding of keysym 33 with keysym 33 (keycode c).
+2024-11-24T10:04:16.109684+00:00 Ubuntu-Desktop gnome-shell[2145]: Window manager warning: Overwriting existing binding of keysym 31 with keysym 31 (keycode a).
+2024-11-24T10:04:16.109766+00:00 Ubuntu-Desktop gnome-shell[2145]: Window manager warning: Overwriting existing binding of keysym 34 with keysym 34 (keycode d).
+2024-11-24T10:04:16.109786+00:00 Ubuntu-Desktop gnome-shell[2145]: Window manager warning: Overwriting existing binding of keysym 31 with keysym 31 (keycode a).
+2024-11-24T10:04:16.109799+00:00 Ubuntu-Desktop gnome-shell[2145]: Window manager warning: Overwriting existing binding of keysym 36 with keysym 36 (keycode f).
+2024-11-24T10:04:16.109812+00:00 Ubuntu-Desktop gnome-shell[2145]: Window manager warning: Overwriting existing binding of keysym 32 with keysym 32 (keycode b).
+2024-11-24T10:04:16.109826+00:00 Ubuntu-Desktop gnome-shell[2145]: Window manager warning: Overwriting existing binding of keysym 33 with keysym 33 (keycode c).
+2024-11-24T10:04:16.109839+00:00 Ubuntu-Desktop gnome-shell[2145]: Window manager warning: Overwriting existing binding of keysym 37 with keysym 37 (keycode 10).
+2024-11-24T10:04:16.109853+00:00 Ubuntu-Desktop gnome-shell[2145]: Window manager warning: Overwriting existing binding of keysym 38 with keysym 38 (keycode 11).
+2024-11-24T10:04:16.109866+00:00 Ubuntu-Desktop gnome-shell[2145]: Window manager warning: Overwriting existing binding of keysym 34 with keysym 34 (keycode d).
+2024-11-24T10:04:16.109879+00:00 Ubuntu-Desktop gnome-shell[2145]: Window manager warning: Overwriting existing binding of keysym 35 with keysym 35 (keycode e).
+2024-11-24T10:04:16.109908+00:00 Ubuntu-Desktop gnome-shell[2145]: Window manager warning: Overwriting existing binding of keysym 32 with keysym 32 (keycode b).
+2024-11-24T10:04:16.109921+00:00 Ubuntu-Desktop gnome-shell[2145]: Window manager warning: Overwriting existing binding of keysym 39 with keysym 39 (keycode 12).
+2024-11-24T10:04:16.109935+00:00 Ubuntu-Desktop gnome-shell[2145]: Window manager warning: Overwriting existing binding of keysym 36 with keysym 36 (keycode f).
+2024-11-24T10:04:16.109947+00:00 Ubuntu-Desktop gnome-shell[2145]: Window manager warning: Overwriting existing binding of keysym 38 with keysym 38 (keycode 11).
+2024-11-24T10:04:16.109960+00:00 Ubuntu-Desktop gnome-shell[2145]: Window manager warning: Overwriting existing binding of keysym 37 with keysym 37 (keycode 10).
+2024-11-24T10:04:16.109974+00:00 Ubuntu-Desktop gnome-shell[2145]: Window manager warning: Overwriting existing binding of keysym 35 with keysym 35 (keycode e).
+2024-11-24T10:04:43.984753+00:00 Ubuntu-Desktop systemd[1]: fprintd.service: Deactivated successfully.
+2024-11-24T10:04:52.615153+00:00 Ubuntu-Desktop rtkit-daemon[1334]: Supervising 8 threads of 5 processes of 1 users.
+2024-11-24T10:04:52.615275+00:00 Ubuntu-Desktop rtkit-daemon[1334]: Supervising 8 threads of 5 processes of 1 users.
+2024-11-24T10:05:01.402570+00:00 Ubuntu-Desktop CRON[5841]: (root) CMD (command -v debian-sa1 > /dev/null && debian-sa1 1 1)
