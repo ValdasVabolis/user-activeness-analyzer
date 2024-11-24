@@ -1,0 +1,199 @@
+2024-11-23T23:12:52.018804+00:00 Ubuntu-Desktop systemd-logind[1087]: New seat seat0.
+2024-11-23T23:12:52.025560+00:00 Ubuntu-Desktop systemd-logind[1087]: Watching system buttons on /dev/input/event1 (VirtualBox USB Keyboard)
+2024-11-23T23:12:52.025611+00:00 Ubuntu-Desktop systemd-logind[1087]: Watching system buttons on /dev/input/event0 (gpio-keys)
+2024-11-23T23:12:52.070338+00:00 Ubuntu-Desktop polkitd[1069]: Loading rules from directory /etc/polkit-1/rules.d
+2024-11-23T23:12:52.072004+00:00 Ubuntu-Desktop polkitd[1069]: Loading rules from directory /usr/share/polkit-1/rules.d
+2024-11-23T23:12:52.089357+00:00 Ubuntu-Desktop polkitd[1069]: Finished loading, compiling and executing 16 rules
+2024-11-23T23:12:52.091201+00:00 Ubuntu-Desktop polkitd[1069]: Acquired the name org.freedesktop.PolicyKit1 on the system bus
+2024-11-23T23:12:53.458215+00:00 Ubuntu-Desktop useradd[1494]: new group: name=vboxuser, GID=1000
+2024-11-23T23:12:53.458388+00:00 Ubuntu-Desktop useradd[1494]: new user: name=vboxuser, UID=1000, GID=1000, home=/home/vboxuser, shell=/bin/bash, from=none
+2024-11-23T23:12:53.458492+00:00 Ubuntu-Desktop useradd[1494]: add 'vboxuser' to group 'adm'
+2024-11-23T23:12:53.458502+00:00 Ubuntu-Desktop useradd[1494]: add 'vboxuser' to group 'cdrom'
+2024-11-23T23:12:53.458511+00:00 Ubuntu-Desktop useradd[1494]: add 'vboxuser' to group 'sudo'
+2024-11-23T23:12:53.458518+00:00 Ubuntu-Desktop useradd[1494]: add 'vboxuser' to group 'dip'
+2024-11-23T23:12:53.458527+00:00 Ubuntu-Desktop useradd[1494]: add 'vboxuser' to group 'plugdev'
+2024-11-23T23:12:53.458535+00:00 Ubuntu-Desktop useradd[1494]: add 'vboxuser' to group 'users'
+2024-11-23T23:12:53.458544+00:00 Ubuntu-Desktop useradd[1494]: add 'vboxuser' to group 'lpadmin'
+2024-11-23T23:12:53.458552+00:00 Ubuntu-Desktop useradd[1494]: add 'vboxuser' to shadow group 'adm'
+2024-11-23T23:12:53.458560+00:00 Ubuntu-Desktop useradd[1494]: add 'vboxuser' to shadow group 'cdrom'
+2024-11-23T23:12:53.458568+00:00 Ubuntu-Desktop useradd[1494]: add 'vboxuser' to shadow group 'sudo'
+2024-11-23T23:12:53.458575+00:00 Ubuntu-Desktop useradd[1494]: add 'vboxuser' to shadow group 'dip'
+2024-11-23T23:12:53.458583+00:00 Ubuntu-Desktop useradd[1494]: add 'vboxuser' to shadow group 'plugdev'
+2024-11-23T23:12:53.458593+00:00 Ubuntu-Desktop useradd[1494]: add 'vboxuser' to shadow group 'users'
+2024-11-23T23:12:53.458600+00:00 Ubuntu-Desktop useradd[1494]: add 'vboxuser' to shadow group 'lpadmin'
+2024-11-23T23:12:53.489276+00:00 Ubuntu-Desktop passwd[1500]: password for 'vboxuser' changed by 'root'
+2024-11-23T23:12:53.493665+00:00 Ubuntu-Desktop passwd[1505]: password for 'root' changed by 'root'
+2024-11-23T23:13:04.700551+00:00 Ubuntu-Desktop gdm-launch-environment]: pam_unix(gdm-launch-environment:session): session opened for user gdm(uid=120) by (uid=0)
+2024-11-23T23:13:04.703301+00:00 Ubuntu-Desktop gdm-launch-environment]: pam_systemd(gdm-launch-environment:session): New sd-bus connection (system-bus-pam-systemd-1650) opened.
+2024-11-23T23:13:04.713673+00:00 Ubuntu-Desktop systemd-logind[1087]: New session c1 of user gdm.
+2024-11-23T23:13:04.758942+00:00 Ubuntu-Desktop (systemd): pam_unix(systemd-user:session): session opened for user gdm(uid=120) by gdm(uid=0)
+2024-11-23T23:13:04.761443+00:00 Ubuntu-Desktop systemd-logind[1087]: New session 1 of user gdm.
+2024-11-23T23:13:06.698923+00:00 Ubuntu-Desktop polkitd[1069]: Registered Authentication Agent for unix-session:c1 (system bus name :1.41 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+2024-11-23T23:13:07.710951+00:00 Ubuntu-Desktop gnome-keyring-daemon[2192]: The Secret Service was already initialized
+2024-11-23T23:13:07.711240+00:00 Ubuntu-Desktop gnome-keyring-daemon[2191]: discover_other_daemon: 1
+2024-11-23T23:13:32.290075+00:00 Ubuntu-Desktop gdm-password]: gkr-pam: unable to locate daemon control file
+2024-11-23T23:13:32.290329+00:00 Ubuntu-Desktop gdm-password]: gkr-pam: stashed password to try later in open session
+2024-11-23T23:13:32.306591+00:00 Ubuntu-Desktop gdm-password]: pam_unix(gdm-password:session): session opened for user vboxuser(uid=1000) by vboxuser(uid=0)
+2024-11-23T23:13:32.307397+00:00 Ubuntu-Desktop gdm-password]: pam_systemd(gdm-password:session): New sd-bus connection (system-bus-pam-systemd-2391) opened.
+2024-11-23T23:13:32.319982+00:00 Ubuntu-Desktop systemd-logind[1087]: New session 2 of user vboxuser.
+2024-11-23T23:13:32.335915+00:00 Ubuntu-Desktop (systemd): pam_unix(systemd-user:session): session opened for user vboxuser(uid=1000) by vboxuser(uid=0)
+2024-11-23T23:13:32.337763+00:00 Ubuntu-Desktop systemd-logind[1087]: New session 3 of user vboxuser.
+2024-11-23T23:13:32.494317+00:00 Ubuntu-Desktop gdm-password]: gkr-pam: unlocked login keyring
+2024-11-23T23:13:32.868434+00:00 Ubuntu-Desktop gnome-keyring-daemon[2861]: discover_other_daemon: 1
+2024-11-23T23:13:32.869310+00:00 Ubuntu-Desktop gnome-keyring-daemon[2467]: The PKCS#11 component was already initialized
+2024-11-23T23:13:32.869492+00:00 Ubuntu-Desktop gnome-keyring-daemon[2467]: The Secret Service was already initialized
+2024-11-23T23:13:32.869751+00:00 Ubuntu-Desktop gnome-keyring-daemon[2866]: discover_other_daemon: 1
+2024-11-23T23:13:32.869967+00:00 Ubuntu-Desktop gnome-keyring-daemon[2865]: discover_other_daemon: 1
+2024-11-23T23:13:33.804706+00:00 Ubuntu-Desktop polkitd[1069]: Registered Authentication Agent for unix-session:2 (system bus name :1.90 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+2024-11-23T23:13:34.119050+00:00 Ubuntu-Desktop gdm-launch-environment]: pam_unix(gdm-launch-environment:session): session closed for user gdm
+2024-11-23T23:13:34.119091+00:00 Ubuntu-Desktop gdm-launch-environment]: pam_systemd(gdm-launch-environment:session): New sd-bus connection (system-bus-pam-systemd-1650) opened.
+2024-11-23T23:13:34.139792+00:00 Ubuntu-Desktop systemd-logind[1087]: Session c1 logged out. Waiting for processes to exit.
+2024-11-23T23:13:34.160641+00:00 Ubuntu-Desktop polkitd[1069]: Unregistered Authentication Agent for unix-session:c1 (system bus name :1.41, object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8) (disconnected from bus)
+2024-11-23T23:13:34.165906+00:00 Ubuntu-Desktop systemd-logind[1087]: Removed session c1.
+2024-11-23T23:13:44.278653+00:00 Ubuntu-Desktop systemd-logind[1087]: Removed session 1.
+2024-11-23T23:15:01.316797+00:00 Ubuntu-Desktop CRON[4944]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2024-11-23T23:15:01.322270+00:00 Ubuntu-Desktop CRON[4944]: pam_unix(cron:session): session closed for user root
+2024-11-23T23:15:45.430641+00:00 Ubuntu-Desktop sudo: vboxuser : TTY=pts/0 ; PWD=/home/vboxuser ; USER=root ; COMMAND=/usr/bin/apt install git
+2024-11-23T23:15:45.430888+00:00 Ubuntu-Desktop sudo: pam_unix(sudo:session): session opened for user root(uid=0) by vboxuser(uid=1000)
+2024-11-23T23:15:51.669810+00:00 Ubuntu-Desktop sudo: pam_unix(sudo:session): session closed for user root
+2024-11-23T23:16:36.435307+00:00 Ubuntu-Desktop sudo: vboxuser : TTY=pts/0 ; PWD=/home/vboxuser/user-activeness-analyzer ; USER=root ; COMMAND=/usr/bin/apt install python
+2024-11-23T23:16:36.436035+00:00 Ubuntu-Desktop sudo: pam_unix(sudo:session): session opened for user root(uid=0) by vboxuser(uid=1000)
+2024-11-23T23:16:36.642386+00:00 Ubuntu-Desktop sudo: pam_unix(sudo:session): session closed for user root
+2024-11-23T23:16:39.893880+00:00 Ubuntu-Desktop sudo: vboxuser : TTY=pts/0 ; PWD=/home/vboxuser/user-activeness-analyzer ; USER=root ; COMMAND=/usr/bin/apt install python3
+2024-11-23T23:16:39.894070+00:00 Ubuntu-Desktop sudo: pam_unix(sudo:session): session opened for user root(uid=0) by vboxuser(uid=1000)
+2024-11-23T23:16:40.222641+00:00 Ubuntu-Desktop sudo: pam_unix(sudo:session): session closed for user root
+2024-11-23T23:17:01.404700+00:00 Ubuntu-Desktop CRON[5337]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2024-11-23T23:17:01.407539+00:00 Ubuntu-Desktop CRON[5337]: pam_unix(cron:session): session closed for user root
+2024-11-23T23:17:50.037241+00:00 Ubuntu-Desktop PackageKit: uid 1000 is trying to obtain org.freedesktop.packagekit.package-install-untrusted auth (only_trusted:0)
+2024-11-23T23:17:50.052784+00:00 Ubuntu-Desktop polkitd[1069]: Identity `unix-group:admin' is not valid, ignoring: No UNIX group with name admin: No such file or directory
+2024-11-23T23:17:51.994555+00:00 Ubuntu-Desktop polkitd[1069]: Operator of unix-session:2 successfully authenticated as unix-user:vboxuser to gain ONE-SHOT authorization for action org.freedesktop.packagekit.package-install-untrusted for system-bus-name::1.146 [/snap/snap-store/1219/bin/snap-store /home/vboxuser/Downloads/code_1.95.3-1731513102_amd64.deb] (owned by unix-user:vboxuser)
+2024-11-23T23:17:51.994731+00:00 Ubuntu-Desktop PackageKit: uid 1000 obtained auth for org.freedesktop.packagekit.package-install-untrusted
+2024-11-23T23:17:54.763880+00:00 Ubuntu-Desktop PackageKit: uid 1000 is trying to obtain org.freedesktop.packagekit.package-install-untrusted auth (only_trusted:0)
+2024-11-23T23:17:54.772719+00:00 Ubuntu-Desktop polkitd[1069]: Identity `unix-group:admin' is not valid, ignoring: No UNIX group with name admin: No such file or directory
+2024-11-23T23:17:56.659457+00:00 Ubuntu-Desktop polkitd[1069]: Operator of unix-session:2 successfully authenticated as unix-user:vboxuser to gain ONE-SHOT authorization for action org.freedesktop.packagekit.package-install-untrusted for system-bus-name::1.146 [/snap/snap-store/1219/bin/snap-store /home/vboxuser/Downloads/code_1.95.3-1731513102_amd64.deb] (owned by unix-user:vboxuser)
+2024-11-23T23:17:56.659994+00:00 Ubuntu-Desktop PackageKit: uid 1000 obtained auth for org.freedesktop.packagekit.package-install-untrusted
+2024-11-23T23:18:13.586550+00:00 Ubuntu-Desktop PackageKit: uid 1000 is trying to obtain org.freedesktop.packagekit.package-install-untrusted auth (only_trusted:0)
+2024-11-23T23:18:13.594553+00:00 Ubuntu-Desktop polkitd[1069]: Identity `unix-group:admin' is not valid, ignoring: No UNIX group with name admin: No such file or directory
+2024-11-23T23:18:15.734865+00:00 Ubuntu-Desktop polkitd[1069]: Operator of unix-session:2 successfully authenticated as unix-user:vboxuser to gain ONE-SHOT authorization for action org.freedesktop.packagekit.package-install-untrusted for system-bus-name::1.146 [/snap/snap-store/1219/bin/snap-store /home/vboxuser/Downloads/code_1.95.3-1731513102_amd64.deb] (owned by unix-user:vboxuser)
+2024-11-23T23:18:15.736835+00:00 Ubuntu-Desktop PackageKit: uid 1000 obtained auth for org.freedesktop.packagekit.package-install-untrusted
+2024-11-23T23:18:27.319497+00:00 Ubuntu-Desktop polkitd[1069]: Identity `unix-group:admin' is not valid, ignoring: No UNIX group with name admin: No such file or directory
+2024-11-23T23:18:29.198916+00:00 Ubuntu-Desktop polkitd[1069]: Operator of unix-session:2 successfully authenticated as unix-user:vboxuser to gain TEMPORARY authorization for action io.snapcraft.snapd.manage for unix-process:5756:28798 [/snap/snap-store/1219/bin/snap-store /home/vboxuser/Downloads/code_1.95.3-1731513102_amd64.deb] (owned by unix-user:vboxuser)
+2024-11-23T23:19:28.877420+00:00 Ubuntu-Desktop sudo: vboxuser : TTY=pts/0 ; PWD=/home/vboxuser/user-activeness-analyzer ; USER=root ; COMMAND=/usr/bin/apt install python3-venv
+2024-11-23T23:19:28.877685+00:00 Ubuntu-Desktop sudo: pam_unix(sudo:session): session opened for user root(uid=0) by vboxuser(uid=1000)
+2024-11-23T23:19:32.578542+00:00 Ubuntu-Desktop sudo: pam_unix(sudo:session): session closed for user root
+2024-11-23T23:19:51.322621+00:00 Ubuntu-Desktop sudo: vboxuser : TTY=pts/0 ; PWD=/home/vboxuser/user-activeness-analyzer ; USER=root ; COMMAND=/usr/bin/apt install python3-pip
+2024-11-23T23:19:51.322769+00:00 Ubuntu-Desktop sudo: pam_unix(sudo:session): session opened for user root(uid=0) by vboxuser(uid=1000)
+2024-11-23T23:20:10.136251+00:00 Ubuntu-Desktop sudo: pam_unix(sudo:session): session closed for user root
+2024-11-23T23:21:16.929366+00:00 Ubuntu-Desktop sudo: vboxuser : TTY=pts/0 ; PWD=/home/vboxuser/user-activeness-analyzer ; USER=root ; COMMAND=/usr/bin/apt install python3-full
+2024-11-23T23:21:16.931558+00:00 Ubuntu-Desktop sudo: pam_unix(sudo:session): session opened for user root(uid=0) by vboxuser(uid=1000)
+2024-11-23T23:21:30.944085+00:00 Ubuntu-Desktop sudo: pam_unix(sudo:session): session closed for user root
+2024-11-23T23:22:56.722625+00:00 Ubuntu-Desktop sudo: vboxuser : TTY=pts/0 ; PWD=/home/vboxuser/user-activeness-analyzer ; USER=root ; COMMAND=/usr/bin/apt install python3-pandas
+2024-11-23T23:22:56.726009+00:00 Ubuntu-Desktop sudo: pam_unix(sudo:session): session opened for user root(uid=0) by vboxuser(uid=1000)
+2024-11-23T23:23:26.473377+00:00 Ubuntu-Desktop sudo: pam_unix(sudo:session): session closed for user root
+2024-11-23T23:23:36.409799+00:00 Ubuntu-Desktop sudo: vboxuser : TTY=pts/0 ; PWD=/home/vboxuser/user-activeness-analyzer ; USER=root ; COMMAND=/usr/bin/apt install python3-matplotlib
+2024-11-23T23:23:36.411602+00:00 Ubuntu-Desktop sudo: pam_unix(sudo:session): session opened for user root(uid=0) by vboxuser(uid=1000)
+2024-11-23T23:23:36.734286+00:00 Ubuntu-Desktop sudo: pam_unix(sudo:session): session closed for user root
+2024-11-23T23:23:42.930833+00:00 Ubuntu-Desktop sudo: vboxuser : TTY=pts/0 ; PWD=/home/vboxuser/user-activeness-analyzer ; USER=root ; COMMAND=/usr/bin/apt install python3-rich
+2024-11-23T23:23:42.931694+00:00 Ubuntu-Desktop sudo: pam_unix(sudo:session): session opened for user root(uid=0) by vboxuser(uid=1000)
+2024-11-23T23:23:43.251631+00:00 Ubuntu-Desktop sudo: pam_unix(sudo:session): session closed for user root
+2024-11-23T23:25:01.413919+00:00 Ubuntu-Desktop CRON[8838]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2024-11-23T23:25:01.416046+00:00 Ubuntu-Desktop CRON[8838]: pam_unix(cron:session): session closed for user root
+2024-11-23T23:29:51.149379+00:00 Ubuntu-Desktop sudo: vboxuser : TTY=pts/0 ; PWD=/home/vboxuser/user-activeness-analyzer ; USER=root ; COMMAND=/usr/bin/python3 main.py
+2024-11-23T23:29:51.151729+00:00 Ubuntu-Desktop sudo: pam_unix(sudo:session): session opened for user root(uid=0) by vboxuser(uid=1000)
+2024-11-23T23:29:51.724065+00:00 Ubuntu-Desktop sudo: pam_unix(sudo:session): session closed for user root
+2024-11-23T23:30:01.419812+00:00 Ubuntu-Desktop CRON[9044]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2024-11-23T23:30:01.420959+00:00 Ubuntu-Desktop CRON[9044]: pam_unix(cron:session): session closed for user root
+2024-11-23T23:32:43.394476+00:00 Ubuntu-Desktop sudo: vboxuser : TTY=pts/0 ; PWD=/home/vboxuser/user-activeness-analyzer ; USER=root ; COMMAND=/usr/bin/python3 main.py
+2024-11-23T23:32:43.394714+00:00 Ubuntu-Desktop sudo: pam_unix(sudo:session): session opened for user root(uid=0) by vboxuser(uid=1000)
+2024-11-23T23:32:43.771808+00:00 Ubuntu-Desktop sudo: pam_unix(sudo:session): session closed for user root
+2024-11-23T23:33:16.011845+00:00 Ubuntu-Desktop sudo: vboxuser : TTY=pts/0 ; PWD=/home/vboxuser/user-activeness-analyzer ; USER=root ; COMMAND=/usr/bin/python3 main.py
+2024-11-23T23:33:16.012541+00:00 Ubuntu-Desktop sudo: pam_unix(sudo:session): session opened for user root(uid=0) by vboxuser(uid=1000)
+2024-11-23T23:33:16.373031+00:00 Ubuntu-Desktop sudo: pam_unix(sudo:session): session closed for user root
+2024-11-23T23:34:20.314634+00:00 Ubuntu-Desktop sudo: vboxuser : TTY=pts/0 ; PWD=/home/vboxuser/user-activeness-analyzer ; USER=root ; COMMAND=/usr/bin/apt install virtualbox-guest-utils
+2024-11-23T23:34:20.316803+00:00 Ubuntu-Desktop sudo: pam_unix(sudo:session): session opened for user root(uid=0) by vboxuser(uid=1000)
+2024-11-23T23:34:20.664476+00:00 Ubuntu-Desktop sudo: pam_unix(sudo:session): session closed for user root
+2024-11-23T23:35:01.426069+00:00 Ubuntu-Desktop CRON[9185]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2024-11-23T23:35:01.429088+00:00 Ubuntu-Desktop CRON[9185]: pam_unix(cron:session): session closed for user root
+2024-11-23T23:37:19.659858+00:00 Ubuntu-Desktop su: pam_unix(su:auth): authentication failure; logname=vboxuser uid=1000 euid=0 tty=/dev/pts/0 ruser=vboxuser rhost=  user=root
+2024-11-23T23:37:21.983701+00:00 Ubuntu-Desktop su[9222]: FAILED SU (to root) vboxuser on pts/0
+2024-11-23T23:40:28.390835+00:00 Ubuntu-Desktop sudo: vboxuser : TTY=pts/0 ; PWD=/home/vboxuser/user-activeness-analyzer ; USER=root ; COMMAND=/usr/bin/python3 main.py
+2024-11-23T23:40:28.392410+00:00 Ubuntu-Desktop sudo: pam_unix(sudo:session): session opened for user root(uid=0) by vboxuser(uid=1000)
+2024-11-23T23:40:28.988911+00:00 Ubuntu-Desktop sudo: pam_unix(sudo:session): session closed for user root
+2024-11-23T23:40:47.381534+00:00 Ubuntu-Desktop sudo: vboxuser : TTY=pts/0 ; PWD=/home/vboxuser/user-activeness-analyzer ; USER=root ; COMMAND=/usr/bin/python3 main.py
+2024-11-23T23:40:47.382074+00:00 Ubuntu-Desktop sudo: pam_unix(sudo:session): session opened for user root(uid=0) by vboxuser(uid=1000)
+2024-11-23T23:40:47.701284+00:00 Ubuntu-Desktop sudo: pam_unix(sudo:session): session closed for user root
+2024-11-23T23:41:26.670521+00:00 Ubuntu-Desktop sudo: vboxuser : TTY=pts/0 ; PWD=/home/vboxuser/user-activeness-analyzer ; USER=root ; COMMAND=/usr/bin/python3 main.py
+2024-11-23T23:41:26.671930+00:00 Ubuntu-Desktop sudo: pam_unix(sudo:session): session opened for user root(uid=0) by vboxuser(uid=1000)
+2024-11-23T23:41:27.042379+00:00 Ubuntu-Desktop sudo: pam_unix(sudo:session): session closed for user root
+2024-11-23T23:42:07.900991+00:00 Ubuntu-Desktop sudo: vboxuser : TTY=pts/0 ; PWD=/home/vboxuser/user-activeness-analyzer ; USER=root ; COMMAND=/usr/bin/python3 main.py
+2024-11-23T23:42:07.901347+00:00 Ubuntu-Desktop sudo: pam_unix(sudo:session): session opened for user root(uid=0) by vboxuser(uid=1000)
+2024-11-23T23:42:08.251075+00:00 Ubuntu-Desktop sudo: pam_unix(sudo:session): session closed for user root
+2024-11-23T23:44:06.751432+00:00 Ubuntu-Desktop systemd-logind[1087]: Watching system buttons on /dev/input/event1 (VirtualBox USB Keyboard)
+2024-11-23T23:45:01.435592+00:00 Ubuntu-Desktop CRON[9659]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2024-11-23T23:45:01.437254+00:00 Ubuntu-Desktop CRON[9659]: pam_unix(cron:session): session closed for user root
+2024-11-24T09:37:16.113121+00:00 Ubuntu-Desktop dbus-daemon[1063]: [system] Failed to activate service 'org.bluez': timed out (service_start_timeout=25000ms)
+2024-11-24T09:39:43.377566+00:00 Ubuntu-Desktop systemd-logind[1016]: New seat seat0.
+2024-11-24T09:39:43.377573+00:00 Ubuntu-Desktop systemd-logind[1016]: Watching system buttons on /dev/input/event1 (VirtualBox USB Keyboard)
+2024-11-24T09:39:43.377574+00:00 Ubuntu-Desktop systemd-logind[1016]: Watching system buttons on /dev/input/event0 (gpio-keys)
+2024-11-24T09:39:43.394705+00:00 Ubuntu-Desktop polkitd[1007]: Loading rules from directory /etc/polkit-1/rules.d
+2024-11-24T09:39:43.395335+00:00 Ubuntu-Desktop polkitd[1007]: Loading rules from directory /usr/share/polkit-1/rules.d
+2024-11-24T09:39:43.408996+00:00 Ubuntu-Desktop polkitd[1007]: Finished loading, compiling and executing 16 rules
+2024-11-24T09:39:43.410012+00:00 Ubuntu-Desktop polkitd[1007]: Acquired the name org.freedesktop.PolicyKit1 on the system bus
+2024-11-24T09:39:44.123886+00:00 Ubuntu-Desktop gdm-launch-environment]: pam_unix(gdm-launch-environment:session): session opened for user gdm(uid=120) by (uid=0)
+2024-11-24T09:39:44.126940+00:00 Ubuntu-Desktop gdm-launch-environment]: pam_systemd(gdm-launch-environment:session): New sd-bus connection (system-bus-pam-systemd-1287) opened.
+2024-11-24T09:39:44.147327+00:00 Ubuntu-Desktop systemd-logind[1016]: New session c1 of user gdm.
+2024-11-24T09:39:44.186773+00:00 Ubuntu-Desktop (systemd): pam_unix(systemd-user:session): session opened for user gdm(uid=120) by gdm(uid=0)
+2024-11-24T09:39:44.189959+00:00 Ubuntu-Desktop systemd-logind[1016]: New session 1 of user gdm.
+2024-11-24T09:39:46.036406+00:00 Ubuntu-Desktop polkitd[1007]: Registered Authentication Agent for unix-session:c1 (system bus name :1.39 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+2024-11-24T09:39:46.810583+00:00 Ubuntu-Desktop gnome-keyring-daemon[1881]: The Secret Service was already initialized
+2024-11-24T09:39:46.810689+00:00 Ubuntu-Desktop gnome-keyring-daemon[1880]: discover_other_daemon: 1
+2024-11-24T09:39:48.840487+00:00 Ubuntu-Desktop gdm-password]: gkr-pam: unable to locate daemon control file
+2024-11-24T09:39:48.840541+00:00 Ubuntu-Desktop gdm-password]: gkr-pam: stashed password to try later in open session
+2024-11-24T09:39:48.857844+00:00 Ubuntu-Desktop gdm-password]: pam_unix(gdm-password:session): session opened for user vboxuser(uid=1000) by vboxuser(uid=0)
+2024-11-24T09:39:48.858514+00:00 Ubuntu-Desktop gdm-password]: pam_systemd(gdm-password:session): New sd-bus connection (system-bus-pam-systemd-1900) opened.
+2024-11-24T09:39:48.866491+00:00 Ubuntu-Desktop systemd-logind[1016]: New session 2 of user vboxuser.
+2024-11-24T09:39:48.887037+00:00 Ubuntu-Desktop (systemd): pam_unix(systemd-user:session): session opened for user vboxuser(uid=1000) by vboxuser(uid=0)
+2024-11-24T09:39:48.890890+00:00 Ubuntu-Desktop systemd-logind[1016]: New session 3 of user vboxuser.
+2024-11-24T09:39:49.026914+00:00 Ubuntu-Desktop gdm-password]: gkr-pam: unlocked login keyring
+2024-11-24T09:39:49.318390+00:00 Ubuntu-Desktop gnome-keyring-daemon[1963]: The PKCS#11 component was already initialized
+2024-11-24T09:39:49.318417+00:00 Ubuntu-Desktop gnome-keyring-daemon[1963]: The Secret Service was already initialized
+2024-11-24T09:39:49.318492+00:00 Ubuntu-Desktop gnome-keyring-daemon[2151]: discover_other_daemon: 1
+2024-11-24T09:39:49.318703+00:00 Ubuntu-Desktop gnome-keyring-daemon[2152]: discover_other_daemon: 1
+2024-11-24T09:39:49.318842+00:00 Ubuntu-Desktop gnome-keyring-daemon[2153]: discover_other_daemon: 1
+2024-11-24T09:39:50.301774+00:00 Ubuntu-Desktop polkitd[1007]: Registered Authentication Agent for unix-session:2 (system bus name :1.82 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+2024-11-24T09:41:36.021321+00:00 Ubuntu-Desktop systemd-logind[1000]: New seat seat0.
+2024-11-24T09:41:36.021324+00:00 Ubuntu-Desktop systemd-logind[1000]: Watching system buttons on /dev/input/event1 (VirtualBox USB Keyboard)
+2024-11-24T09:41:36.021325+00:00 Ubuntu-Desktop systemd-logind[1000]: Watching system buttons on /dev/input/event0 (gpio-keys)
+2024-11-24T09:41:36.021343+00:00 Ubuntu-Desktop polkitd[989]: Loading rules from directory /etc/polkit-1/rules.d
+2024-11-24T09:41:36.021344+00:00 Ubuntu-Desktop polkitd[989]: Loading rules from directory /usr/share/polkit-1/rules.d
+2024-11-24T09:41:36.028572+00:00 Ubuntu-Desktop polkitd[989]: Finished loading, compiling and executing 16 rules
+2024-11-24T09:41:36.030017+00:00 Ubuntu-Desktop polkitd[989]: Acquired the name org.freedesktop.PolicyKit1 on the system bus
+2024-11-24T09:41:36.692514+00:00 Ubuntu-Desktop gdm-launch-environment]: pam_unix(gdm-launch-environment:session): session opened for user gdm(uid=120) by (uid=0)
+2024-11-24T09:41:36.695699+00:00 Ubuntu-Desktop gdm-launch-environment]: pam_systemd(gdm-launch-environment:session): New sd-bus connection (system-bus-pam-systemd-1271) opened.
+2024-11-24T09:41:36.709671+00:00 Ubuntu-Desktop systemd-logind[1000]: New session c1 of user gdm.
+2024-11-24T09:41:36.743693+00:00 Ubuntu-Desktop (systemd): pam_unix(systemd-user:session): session opened for user gdm(uid=120) by gdm(uid=0)
+2024-11-24T09:41:36.746902+00:00 Ubuntu-Desktop systemd-logind[1000]: New session 1 of user gdm.
+2024-11-24T09:41:38.560849+00:00 Ubuntu-Desktop polkitd[989]: Registered Authentication Agent for unix-session:c1 (system bus name :1.40 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+2024-11-24T09:41:39.444341+00:00 Ubuntu-Desktop gnome-keyring-daemon[1865]: The Secret Service was already initialized
+2024-11-24T09:41:39.444577+00:00 Ubuntu-Desktop gnome-keyring-daemon[1864]: discover_other_daemon: 1
+2024-11-24T09:41:43.030953+00:00 Ubuntu-Desktop gdm-password]: gkr-pam: unable to locate daemon control file
+2024-11-24T09:41:43.030994+00:00 Ubuntu-Desktop gdm-password]: gkr-pam: stashed password to try later in open session
+2024-11-24T09:41:43.042654+00:00 Ubuntu-Desktop gdm-password]: pam_unix(gdm-password:session): session opened for user vboxuser(uid=1000) by vboxuser(uid=0)
+2024-11-24T09:41:43.042979+00:00 Ubuntu-Desktop gdm-password]: pam_systemd(gdm-password:session): New sd-bus connection (system-bus-pam-systemd-1879) opened.
+2024-11-24T09:41:43.051910+00:00 Ubuntu-Desktop systemd-logind[1000]: New session 2 of user vboxuser.
+2024-11-24T09:41:43.074574+00:00 Ubuntu-Desktop (systemd): pam_unix(systemd-user:session): session opened for user vboxuser(uid=1000) by vboxuser(uid=0)
+2024-11-24T09:41:43.077317+00:00 Ubuntu-Desktop systemd-logind[1000]: New session 3 of user vboxuser.
+2024-11-24T09:41:43.215774+00:00 Ubuntu-Desktop gdm-password]: gkr-pam: unlocked login keyring
+2024-11-24T09:41:43.501226+00:00 Ubuntu-Desktop gnome-keyring-daemon[1941]: The PKCS#11 component was already initialized
+2024-11-24T09:41:43.501508+00:00 Ubuntu-Desktop gnome-keyring-daemon[1941]: The Secret Service was already initialized
+2024-11-24T09:41:43.501717+00:00 Ubuntu-Desktop gnome-keyring-daemon[2125]: discover_other_daemon: 1
+2024-11-24T09:41:43.501823+00:00 Ubuntu-Desktop gnome-keyring-daemon[2130]: discover_other_daemon: 1
+2024-11-24T09:41:43.501834+00:00 Ubuntu-Desktop gnome-keyring-daemon[2132]: discover_other_daemon: 1
+2024-11-24T09:41:44.435005+00:00 Ubuntu-Desktop polkitd[989]: Registered Authentication Agent for unix-session:2 (system bus name :1.84 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+2024-11-24T09:41:44.816260+00:00 Ubuntu-Desktop gdm-launch-environment]: pam_unix(gdm-launch-environment:session): session closed for user gdm
+2024-11-24T09:41:44.816430+00:00 Ubuntu-Desktop gdm-launch-environment]: pam_systemd(gdm-launch-environment:session): New sd-bus connection (system-bus-pam-systemd-1271) opened.
+2024-11-24T09:41:44.822735+00:00 Ubuntu-Desktop systemd-logind[1000]: Session c1 logged out. Waiting for processes to exit.
+2024-11-24T09:41:44.835672+00:00 Ubuntu-Desktop polkitd[989]: Unregistered Authentication Agent for unix-session:c1 (system bus name :1.40, object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8) (disconnected from bus)
+2024-11-24T09:41:44.841204+00:00 Ubuntu-Desktop systemd-logind[1000]: Removed session c1.
+2024-11-24T09:41:54.960724+00:00 Ubuntu-Desktop (sd-pam): pam_unix(systemd-user:session): session closed for user gdm
+2024-11-24T09:41:54.973684+00:00 Ubuntu-Desktop systemd-logind[1000]: Removed session 1.
